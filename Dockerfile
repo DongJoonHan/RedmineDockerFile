@@ -5,7 +5,7 @@
 FROM docker.io/bitnami/minideb:buster
 LABEL maintainer "Synetics"
 
-USER root
+#USER root
 ENV PATH="/opt/bitnami/ruby/bin:/opt/bitnami/postgresql/bin:/opt/bitnami/mysql/bin:/opt/bitnami/git/bin:/opt/bitnami/common/bin:/opt/bitnami/nami/bin:$PATH"
 
 COPY prebuildfs /
